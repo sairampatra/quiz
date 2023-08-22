@@ -1,0 +1,117 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+  background:linear-gradient(135deg,pink,#2525e4bf) ;
+  }
+  .container{
+    width:100%;
+    max-width:600px;
+    color: white;
+    background: #00000096;
+    border-radius: 10px;
+    margin: 110px auto 0px;
+    padding:20px 20px 20px 20px;
+  }
+  .title{
+    border-bottom:1px solid black;
+    padding-bottom:30px;
+  }
+  .question{
+    font-size: 18px;
+  }
+  .container .container2{
+   margin: 0px auto 10px;
+      padding-bottom: 10px;
+  }
+  .buttons{
+    display: block;
+  }
+  .btn{
+    /* width: 100%;
+      height: 32px;
+      margin: 5px auto 6px;
+      border-radius: 10px;
+      border: 0;
+      outline: 0;
+      background: beige;
+    text-align: left;
+    padding-left: 10px;
+      cursor: pointer; */
+    background:linear-gradient(170deg,wheat,#9c35eb52);
+  
+     width: 100%;
+      margin: 7px auto;
+      padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+    text-align: left;
+  transition:all 0.3s;
+      border: 1px solid black;
+  
+  
+  }
+  .btn:hover:not([disabled]){
+  background:linear-gradient(187deg,#edc7cd,#9c35eb52);
+    color:black;
+  }
+  .btn:disabled{
+    cursor: no-drop;
+  }
+  .nextbtn{
+    /* align-items: center;
+        border-radius: 6px;
+      background: gray;
+    margin:10px 260px;
+     border: 0;
+      outline: 0;
+        padding: 10px 20px 10px 20px;
+      cursor: pointer;
+    display: none;
+  width: 111px; */
+  
+    margin: 18px 0px -8px 260px;
+      font-size: 17px;
+      padding: 4px 24px;
+      background: #2525e4bf;
+    color:wheat;
+      border: 0;
+      outline: 0;
+      border-radius: 4px;
+      text-align: center;
+    display:none;
+      cursor: pointer;
+  
+  
+  }
+  .nextbtn:hover{
+   background:
+  #2525e4e8;
+  }
+  .correct{
+          background:#71ed71d9
+  }
+  .incorrect{
+          background:#e63d3db8
+  }
+  .playagain{
+    color:wheat;
+     align-items: center;
+        border-radius: 6px;
+      background: #2525e4bf;
+    margin:10px 260px;
+     border: 0;
+      outline: 0;
+        padding: 10px 20px 10px 20px;
+      cursor: pointer;
+    display: none;
+    width: 111px;
+  }
+  .playagain:hover{
+    background:
+  #2525e4e8;
+  }
+  
